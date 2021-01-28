@@ -1,5 +1,5 @@
 function maximum(...num) {
-  var maximumNumber = 0;
+  var maximumNumber = num[0];
 
   for (var i = 0; i < num.length; i++) {
     if (num[i] > maximumNumber) {
@@ -10,3 +10,5 @@ function maximum(...num) {
 }
 
 console.log(maximum(1, 22, 3, 2));
+console.log(maximum(-1, -22, -3, -2)); 
+
